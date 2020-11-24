@@ -22,3 +22,29 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+User
+  user_name:string
+  email:string
+  id:integer
+  has_many links
+  has_many comments
+
+
+Posts
+  title:string
+  body:text
+  id:integer
+  user_id:integer = belongs_to user
+  
+  has_many comments
+
+
+Comments
+  title:string
+  body:text
+  id:integer
+  link_id:integer
+  user_id:inter
+  belongs_to link
+  belongs_to user
