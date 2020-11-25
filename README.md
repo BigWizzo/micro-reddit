@@ -1,50 +1,55 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<h1 align="center">Micro-Reddit</h1>
 
-Things you may want to cover:
+# Project Description
 
-* Ruby version
+> Ruby on Rails - Building with Active Records:
 
-* System dependencies
+- Models 
+- Data Structures & Relationships
+- Migrations
+- Associations
+- Validations
 
-* Configuration
+## Built With
+- Ruby on Rails
 
-* Database creation
+## Getting Started
+\*\*To get a local copy up and running follow these simple steps.
 
-* Database initialization
+### Instructions
+- Open the console
+- Download or `git clone https://github.com/BigWizzo/micro-reddit.git`
+- `cd micro-reddit`
+- run `bundle install`
+- run `yarn install`
+- run `rails server`
 
-* How to run the test suite
+### Install
+- yarn
+- Ruby
+- Ruby on Rails
+- Text Editor
 
-* Services (job queues, cache servers, search engines, etc.)
+## Authors
 
-* Deployment instructions
+👤 **Will Nyamunokora**
+- Github: [@bigwizzo](https://github.com/bigwizzo)
+- Twitter: [@willnyamunokora](https://twitter.com/willnyamunokora)
+- Linkedin: [Will Nyamunokora](https://linkedin.com/in/willnyamunokora)
 
-* ...
+👤 **Alan Soto**
+ - Github: [@AlanSoto31](https://github.com/AlanSoto31)
+ - Twitter: [@Alan95081574](https://twitter.com/Alan95081574)
+ - Linkedin: [Alan Soto](https://www.linkedin.com/in/alan-soto-valle-b9a0511aa/)
 
-User
-  user_name:string
-  email:string
-  id:integer
-  has_many links
-  has_many comments
+## :apretón-manos: Contributing
+Contributions, issues and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/BigWizzo/micro-reddit/issues).
 
+## Show your support
+Give a :estrella:️ if you like this project!
 
-Posts
-  title:string
-  body:text
-  id:integer
-  user_id:integer = belongs_to user
-  
-  has_many comments
-
-
-Comments
-  title:string
-  body:text
-  id:integer
-  link_id:integer
-  user_id:inter
-  belongs_to post
-  belongs_to user
+## :nota: License
+This project is [MIT](./LICENSE) licensed.
