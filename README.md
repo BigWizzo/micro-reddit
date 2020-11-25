@@ -46,5 +46,5 @@ Comments
   id:integer
   link_id:integer
   user_id:inter
-  belongs_to link
+  belongs_to post
   belongs_to user
