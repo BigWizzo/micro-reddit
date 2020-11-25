@@ -16,7 +16,7 @@
 - Ruby on Rails
 
 ## Getting Started
-\*\*To get a local copy up and running follow these simple steps.
+- To get a local copy up and running follow these simple steps.
 
 ### Instructions
 - Open the console
@@ -44,12 +44,12 @@
  - Twitter: [@Alan95081574](https://twitter.com/Alan95081574)
  - Linkedin: [Alan Soto](https://www.linkedin.com/in/alan-soto-valle-b9a0511aa/)
 
-## :apretón-manos: Contributing
+## Contributing
 Contributions, issues and feature requests are welcome!
 Feel free to check the [issues page](https://github.com/BigWizzo/micro-reddit/issues).
 
 ## Show your support
-Give a :estrella:️ if you like this project!
+Give a ⭐️ if you like this project!
 
-## :nota: License
+## License
 This project is [MIT](./LICENSE) licensed.
